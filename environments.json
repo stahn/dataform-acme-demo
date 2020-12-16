@@ -13,7 +13,7 @@
         },
         {
           "name": "hourly",
-          "cron": "30 14 * * *"
+          "cron": "59 */1 * * *"
         }
       ],
       "gitRef": "master"
