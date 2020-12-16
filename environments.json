@@ -12,7 +12,7 @@
           ]
         },
         {
-          "name": "hour",
+          "name": "hourly",
           "cron": "30 14 * * *"
         }
       ],
