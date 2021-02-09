@@ -20,6 +20,9 @@
     },
     {
       "name": "staging",
+      "configOverride": {
+        "schemaSuffix": "staging"
+      },
       "schedules": [
         {
           "name": "daily (all)",
