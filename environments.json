@@ -19,8 +19,14 @@
       "gitRef": "master"
     },
     {
-      "name": "development",
-      "gitRef": "master"
+      "name": "staging",
+      "schedules": [
+        {
+          "name": "daily (all)",
+          "cron": "42 16 * * mon,tue,wed,thu,fri,sat,sun"
+        }
+      ],
+      "gitRef": "f982f412187c200b6a2b24ec9e11277870c1eeb9"
     }
   ]
 }
