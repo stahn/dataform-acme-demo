@@ -1,0 +1,20 @@
+config {
+  type: "table"
+}
+
+SELECT 
+  user_id AS user_id,
+  age AS age,
+  age_bucket AS age_bucket,
+  badge_count AS badge_count,
+  questions_and_answer_count AS questions_and_answer_count,
+  question_count AS question_count,
+  answer_count AS answer_count,
+  last_badge_received_at AS last_badge_received_at,
+  last_posted_at AS last_posted_at,
+  last_question_posted_at AS last_question_posted_at,
+  last_answer_posted_at AS last_answer_posted_at,
+
+FROM ${ref("user_stats")}
+
+LIMIT 100
