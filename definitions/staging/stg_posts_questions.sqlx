@@ -1,6 +1,6 @@
 config {
   type: "view",
-  schema: "staging",
+  schema: "dataform_acme_bigquery_staging",
   description: "Cleaned version of stackoverflow.posts_questions"
 }
 

@@ -1,6 +1,6 @@
 {
-    "defaultSchema": "acme_bigquery",
-    "assertionSchema": "acme_bigquery_assertions",
+    "defaultSchema": "dataform_acme_bigquery",
+    "assertionSchema": "dataform_acme_bigquery_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "data-analytics-demo-stanislawm",
     "useRunCache": "true"

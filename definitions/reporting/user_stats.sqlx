@@ -1,6 +1,6 @@
 config {
   type: "table",
-  schema: "reporting",
+  schema: "dataform_acme_bigquery_reporting",
   tags: ["daily"],
   description: "Create a summary table for all users including statistics on questions, answeers and badges received.",
   columns: {
