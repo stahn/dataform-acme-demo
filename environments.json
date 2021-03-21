@@ -58,7 +58,7 @@
       "name": "assertion_test",
       "schedules": [
         {
-          "name": "new_schedule",
+          "name": "new_schedule2",
           "cron": "52 */1 * * *",
           "notify": [
             {
