@@ -21,6 +21,22 @@
           "tags": [
             "daily"
           ]
+        },
+        {
+          "name": "new_schedule",
+          "cron": "23 */1 * * *",
+          "options": {
+            "includeDependencies": false
+          },
+          "notify": [
+            {
+              "channel": "new_notification_channel",
+              "statuses": [
+                "SUCCESS",
+                "FAILURE"
+              ]
+            }
+          ]
         }
       ],
       "gitRef": "master"
@@ -37,6 +53,16 @@
         }
       ],
       "gitRef": "master"
-    } 
+    }
+  ],
+  "notificationChannels": [
+    {
+      "name": "new_notification_channel",
+      "email": {
+        "to": [
+          "stanislawm@google.com"
+        ]
+      }
+    }
   ]
 }
