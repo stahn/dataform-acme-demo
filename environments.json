@@ -53,6 +53,25 @@
         }
       ],
       "gitRef": "master"
+    },
+    {
+      "name": "assertion_test",
+      "schedules": [
+        {
+          "name": "new_schedule",
+          "cron": "52 */1 * * *",
+          "notify": [
+            {
+              "channel": "new_notification_channel",
+              "statuses": [
+                "SUCCESS",
+                "FAILURE"
+              ]
+            }
+          ]
+        }
+      ],
+      "gitRef": "dataform_Assertion_test"
     }
   ],
   "notificationChannels": [
