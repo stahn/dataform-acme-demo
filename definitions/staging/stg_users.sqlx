@@ -11,3 +11,5 @@ select
   round(timestamp_diff(current_timestamp(), creation_date, day)/365) as user_tenure
 from
   ${ref("users")}
+UNION ALL 
+SELECT 244 as user_id, null as age, CURRENT_TIMESTAMP() as creation_date, 13.0 as user_tenure
