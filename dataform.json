@@ -1,5 +1,5 @@
 {
-    "defaultSchema": "dataform_acme_bigquery",
+    "defaultSchema": "dataform_acme_bigquery_reporting_staging",
     "assertionSchema": "dataform_acme_bigquery_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "data-analytics-demo-stanislawm",
