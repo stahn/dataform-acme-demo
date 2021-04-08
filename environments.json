@@ -79,7 +79,7 @@
       "name": "new_notification_channel",
       "email": {
         "to": [
-          "stanislawm@google.com"
+          "dataform_test@acme.com"
         ]
       }
     }
