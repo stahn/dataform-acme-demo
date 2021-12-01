@@ -1,6 +1,6 @@
 {
-    "defaultSchema": "dataform_reporting",
-    "assertionSchema": "dataform_assertions",
+    "defaultSchema": "dataform_demo",
+    "assertionSchema": "dataform_demo_assertions",
     "warehouse": "bigquery",
     "defaultDatabase": "data-analytics-demo-stanislawm",
     "useRunCache": "true"
