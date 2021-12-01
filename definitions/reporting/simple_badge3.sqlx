@@ -1,0 +1,10 @@
+config {
+  type: "table"
+}
+
+select
+  badge_name,
+  count(user_id) as users_count
+from 
+  ${ref("stg_badges")}
+GROUP BY badge_name
