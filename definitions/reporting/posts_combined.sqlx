@@ -1,6 +1,5 @@
 config {
   type: "table",
-  schema: "dataform_acme_bigquery_reporting",
   tags: ["daily"],
   description: "Combine both questions and answers into a single posts_all table",
   columns: {
